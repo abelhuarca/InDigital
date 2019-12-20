@@ -1,0 +1,7 @@
+com\indigital\client\util\WiremockUtil.class
+com\indigital\client\BaseTest.class
+com\indigital\client\service\impl\ClientServiceImplTest.class
+com\indigital\client\api\ClientControllerTest.class
+com\indigital\client\BaseMockMvcTest.class
+com\indigital\client\BaseSpringTest.class
+com\indigital\client\ClientsApplicationTests.class

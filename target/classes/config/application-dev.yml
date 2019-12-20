@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: client
+
+client:
+  app:
+    lifeExpectancyMan: 72 
+    lifeExpectancyWoman: 77.3 
