@@ -15,13 +15,13 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Client {
 
-    @NotBlank(message = "El nombre es requerido")
+    @NotBlank(message = "The name is required")
     private String name;
 
-    @NotBlank(message = "El apellido es requerido")
+    @NotBlank(message = "The last name is required")
     private String lastName;
 
-    @NotBlank(message = "La fecha de nacimiento es requerida")
+    @NotBlank(message = "The birthday is required")
 
     private String birthDate;
 

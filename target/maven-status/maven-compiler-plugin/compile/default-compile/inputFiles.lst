@@ -1,14 +1,15 @@
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\api\model\StatisticsClient.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\util\StatisticsUtils.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\service\ClientService.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\config\ApplicationProperties.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\service\impl\ClientServiceImpl.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\ClientsApplication.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\util\JacksonUtils.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\api\model\Client.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\entity\ClientEntity.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\config\SwaggerConfig.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\constant\Constants.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\repository\ClientRepository.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\util\DateUtils.java
-D:\Datos de Usuarios\S91563\Desktop\InDigital\indigital-clientes\src\main\java\com\indigital\client\api\controller\ClientController.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\config\SwaggerConfig.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\api\model\ClientRequest.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\constant\Constants.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\entity\ClientEntity.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\service\impl\ClientServiceImpl.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\api\model\StatisticsClient.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\config\ApplicationProperties.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\api\model\Client.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\util\DateUtils.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\util\JacksonUtils.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\repository\ClientRepository.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\util\StatisticsUtils.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\service\ClientService.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\ClientsApplication.java
+C:\Users\Abel\Desktop\InDigitalProyect\indigital-clientes\src\main\java\com\indigital\client\api\controller\ClientController.java

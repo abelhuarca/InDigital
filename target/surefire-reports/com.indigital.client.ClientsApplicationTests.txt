@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.indigital.client.ClientsApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 s - in com.indigital.client.ClientsApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 s - in com.indigital.client.ClientsApplicationTests

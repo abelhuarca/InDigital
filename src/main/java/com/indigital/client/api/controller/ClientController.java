@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.indigital.client.api.model.Client;
+import com.indigital.client.api.model.ClientRequest;
 import com.indigital.client.service.ClientService;
 import com.indigital.client.util.JacksonUtils;
 
@@ -28,51 +29,48 @@ public class ClientController {
 
     private ClientService clientService;
 
-    @PostMapping("/cliente")
+    @PostMapping("/client")
     @ApiOperation(
-            value = "Crea un cliente en la base de datos.",
+            value = "Create client into data base",
             produces = MediaType.APPLICATION_JSON_UTF8_VALUE,
             consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,
             response = ResponseEntity.class,
-            httpMethod = "POST",
-            notes = "classpath:swagger/notes/create-client.md"
+            httpMethod = "POST"
     )
     @ApiResponses({
-            @ApiResponse(code = 202, message = "El cliete se creo manera exitosa")}
+            @ApiResponse(code = 202, message = "The client was successfully created")}
     )
-    public ResponseEntity create(@Valid @RequestBody Client client) {
+    public ResponseEntity create(@Valid @RequestBody ClientRequest client) {
         log.info("request: {} ", JacksonUtils.getObjectAsString(client));
         clientService.createClient(client);
         return ResponseEntity.accepted().build();
     }
 
-    @GetMapping("/cliente/kpi")
+    @GetMapping("/client/kpi")
     @ApiOperation(
-            value = "Obtiene el promedio de edades de los cliente registrados incluyendo la desviacion estandar.",
+            value = "Show the average age of registered customers and the standard deviation.",
             produces = MediaType.APPLICATION_JSON_UTF8_VALUE,
             consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,
             response = ResponseEntity.class,
-            httpMethod = "GET",
-            notes = "classpath:swagger/notes/kpi-client.md"
+            httpMethod = "GET"
     )
     @ApiResponses({
-            @ApiResponse(code = 200, message = "Se procesaron los datos del cliente de manera exitosa")}
+            @ApiResponse(code = 200, message = "Client information was successfully processed")}
     )
     public ResponseEntity getClientsKpi() {
         return ResponseEntity.ok(clientService.getClientsKpi());
     }
 
-    @GetMapping("/cliente")
+    @GetMapping("/clients")
     @ApiOperation(
-            value = "Obtiene todos los clientes registrados incluyendo la fecha probacle de muerte.",
+            value = "Show all registered customers including the probable date of death..",
             produces = MediaType.APPLICATION_JSON_UTF8_VALUE,
             consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,
             response = ResponseEntity.class,
-            httpMethod = "GET",
-            notes = "classpath:swagger/notes/retrieve-client.md"
+            httpMethod = "GET"
     )
     @ApiResponses({
-            @ApiResponse(code = 200, message = "-")}
+            @ApiResponse(code = 200, message = "Client information was successfully processed")}
     )
     public ResponseEntity getClients() {
         return ResponseEntity.ok(clientService.getAllClients());

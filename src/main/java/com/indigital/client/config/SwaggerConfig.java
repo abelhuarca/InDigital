@@ -16,7 +16,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("pe.intercorp.com.clients.api.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.indigital.client.api.controller"))
                 .paths(PathSelectors.ant("/api/**"))
                 .build();
     }

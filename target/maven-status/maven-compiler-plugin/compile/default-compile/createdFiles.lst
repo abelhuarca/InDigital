@@ -4,9 +4,11 @@ com\indigital\client\config\ApplicationProperties.class
 com\indigital\client\config\SwaggerConfig.class
 com\indigital\client\service\impl\ClientServiceImpl.class
 com\indigital\client\util\StatisticsUtils.class
+com\indigital\client\api\model\ClientRequest$ClientRequestBuilder.class
 com\indigital\client\entity\ClientEntity.class
 com\indigital\client\api\model\StatisticsClient.class
 com\indigital\client\repository\ClientRepository.class
+com\indigital\client\api\model\ClientRequest.class
 com\indigital\client\api\model\Client.class
 com\indigital\client\util\DateUtils.class
 com\indigital\client\api\controller\ClientController.class

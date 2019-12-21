@@ -19,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.indigital.client.BaseSpringTest;
 import com.indigital.client.api.model.Client;
+import com.indigital.client.api.model.ClientRequest;
 import com.indigital.client.config.ApplicationProperties;
 import com.indigital.client.entity.ClientEntity;
 import com.indigital.client.repository.ClientRepository;
@@ -64,8 +65,8 @@ public class ClientServiceImplTest extends BaseSpringTest {
         clientService.getClientsKpi();
     }
 
-    private Client getClient() throws IOException {
-        return new ObjectMapper().readValue(obtainResource("json/client_mock.json"), Client.class);
+    private ClientRequest getClient() throws IOException {
+        return new ObjectMapper().readValue(obtainResource("json/client_mock.json"), ClientRequest.class);
     }
 
     private List<ClientEntity> getClientEntity() {

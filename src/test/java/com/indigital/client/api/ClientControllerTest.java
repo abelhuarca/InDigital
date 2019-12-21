@@ -25,9 +25,9 @@ import com.indigital.client.service.ClientService;
 
 public class ClientControllerTest extends BaseMockMvcTest {
 
-    public static final String URL_ENDPOINT_CREATE_CLIENT = "/api/cliente";
-    public static final String URL_ENDPOINT_GET_CLIENT_KPI = "/api/cliente/kpi";
-    public static final String URL_ENDPOINT_GET_ALL_CLIENTS = "/api/cliente";
+    public static final String URL_ENDPOINT_CREATE_CLIENT = "/api/client";
+    public static final String URL_ENDPOINT_GET_CLIENT_KPI = "/api/client/kpi";
+    public static final String URL_ENDPOINT_GET_ALL_CLIENTS = "/api/clients";
 
     @MockBean
     private ClientService clientService;
